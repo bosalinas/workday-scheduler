@@ -1,19 +1,23 @@
 # workday-scheduler
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
 
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
+## Application expectations: 
+Web doc will load blank 9-5pm slots with current date and time. 
+When user saves hourly description this will load on refresh or when revisiting the site.
+Color of time blocks will change depending on past, present or future time.
 
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+## Technology used:
+HTML, JS, CSS, DAYJS, Google Fonts
 
-WHEN I click into a timeblock
-THEN I can enter an event
+## Challenges: 
+Creating the logic to get the web document to change color depending on the current time.
+Getting local storage to save information.
 
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
 
-WHEN I refresh the page
-THEN the saved events persist
+## Errors:
+DAYJS and chrome have an error that for this project I was told to not worry about for submission. 
+It was not an error in my code but an error with the compatibility of the API and Chrome.
+
+
+![Screenshot of Web document on Chrome](./Assets/Images/workscheduler.png)
+
+![Link to github deplayed page](https://bosalinas.github.io/workday-scheduler/)
