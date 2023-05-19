@@ -20,4 +20,5 @@ It was not an error in my code but an error with the compatibility of the API an
 
 ![Screenshot of Web document on Chrome](./Assets/Images/workscheduler.png)
 
-![Link to github deplayed page](https://bosalinas.github.io/workday-scheduler/)
+Github Deplyed Page
+https://bosalinas.github.io/workday-scheduler/
