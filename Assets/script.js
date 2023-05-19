@@ -3,9 +3,9 @@
 $(function () {
 
   var currentTime = dayjs();
-  $('#currentDay').text(currentTime.format('dddd, MMMM D, YYYY h:mm A'));
+  $('#currentDay').text(currentTime.format('ddd, MMM D, YYYY h:mm A'));
 
-  setInterval(currentTime, 1000);
+  setInterval(currentTime, 10000);
 
   //event when clicking save button
   $('.saveBtn').on('click', function() {
@@ -56,6 +56,9 @@ $(function () {
     $("#hour-17 textarea").val(localStorage.getItem('hour-17'));
   };
 
+
+
   setInterval(changeColorBlocks, 30000);
   getData();
+  changeColorBlocks();
 });   
